@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "outDir": "./dist",
+      "sourceMap": true,
+      "noImplicitAny": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "allowJs": true
+    },
+    "include": [
+      "./kernel/kernel.ts",
+      "./rendering/engine.ts",
+      "./shell/shell.ts",
+      "./applications/appManager.ts",
+      "./git/gitIntegration.ts",
+      "./ui/index.html",
+      "./ui/styles.css",
+      "./ui/main.ts",
+      "./docs/installation.md",
+      "./docs/userGuide.md"
+    ],
+    "exclude": [
+      "**/node_modules/**",
+      "./node_modules/"
+    ]
+  }
+  
